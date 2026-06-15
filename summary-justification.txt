@@ -1,0 +1,11 @@
+This project compares the cost of hosting a small web application on AWS and Azure using equivalent infrastructure. The application is designed as a lightweight backend service with 1 vCPU, 2 GB RAM, 50 GB storage, and approximately 100 GB of monthly outbound traffic.
+
+After analyzing both platforms, AWS was found to be slightly more cost-effective at a monthly estimate of $31.50 compared to Azure at $39.50. The main difference in pricing comes from compute costs, where AWS provides more competitive pricing for small Linux-based instances. Storage and bandwidth costs were relatively similar across both providers.
+
+From a financial perspective, AWS offers better cost efficiency for startups and small-scale deployments that prioritize minimal operational expenses. Additionally, AWS provides flexible pricing models such as Savings Plans and Reserved Instances that allow further long-term cost reduction.
+
+Azure, however, presents advantages in enterprise environments, especially for organizations already using Microsoft products. Features such as Azure Hybrid Benefit significantly reduce costs for Windows-based workloads, making Azure more attractive in corporate settings.
+
+In conclusion, AWS is the preferred choice for cost-sensitive startup applications, while Azure becomes more beneficial in enterprise or Microsoft-integrated ecosystems. The final decision depends on workload type, existing infrastructure, and long-term scaling strategy.
+
+This analysis demonstrates the importance of understanding cloud pricing models and optimizing architectural decisions to reduce operational costs in cloud computing environments.
