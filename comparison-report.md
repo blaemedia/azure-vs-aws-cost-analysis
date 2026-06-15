@@ -1,5 +1,18 @@
 # AWS vs Azure Cost Comparison Report
 
+## Annual Cost Comparison
+
+| Provider | Monthly Cost | Annual Cost |
+|----------|-------------|-------------|
+| AWS | $31.50 | $378.00 |
+| Azure | $39.50 | $474.00 |
+
+## Cost Difference
+
+AWS is approximately **20.2% cheaper** than Azure for this workload.
+
+Calculation:
+((39.50 - 31.50) / 39.50) × 100 = 20.2%
 ## 1. Objective
 This report compares the monthly cost of hosting a small web application on AWS and Azure using equivalent infrastructure.
 
